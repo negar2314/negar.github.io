@@ -1,76 +1,227 @@
 <!DOCTYPE html>
-<html>
-    <head>
-       <meta charset="utf-8"/>
-<meta name="google-site-verification" content="zolGr50vscjpP_2pAhadfkfWBzSBNBKnHtRzhZsPHCU" />
-        <link rel="stylesheet" href="style.css"/>
-        <title>Negar Mohammadnejad - Home</title>
-   
-    </head>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="google-site-verification" content="zolGr50vscjpP_2pAhadfkfWBzSBNBKnHtRzhZsPHCU" />
+    <title>Negar Mohammadnejad - Home</title>
 
-    <body>
-        <div class="content">
-            <header>
-                <h1 id="title">  Negar Mohammadnejad</h1>
-            </header>
-           
-            <br>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<div class="container">
-    <div class="image">
-        <img src="IMG_1372.jpg" alt="Image">
-    </div>
-    <div class="text">
- I'm a third-year PhD student at the University of Alberta under the supervison of Dr. Thomas Hillen. 
-     <br>   <b>Mail:</b> <a href="mailto:negar@ualberta.ca">negar3 [at] ualberta [dot] ca</a> <br>
-    </div>
-</div>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #fafafa;
+            color: #222;
+            line-height: 1.6;
+        }
 
+        .content {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
 
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
 
+        #title {
+            font-size: 2.8rem;
+            font-weight: 700;
+            color: #1f3a5f;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
 
-<section>
-            <h1> Research interests </h1> Mathematical biology, cancer cell modeling, partial differential equations
-        </section>
-<hr>
+        .subtitle {
+            font-size: 1.1rem;
+            color: #555;
+            font-weight: 400;
+        }
 
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
 
+        .image img {
+            width: 180px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
 
+        .text {
+            font-size: 1rem;
+        }
 
-        <section>
-            <h1>Papers</h1>  
-            
-<ul><li> <a href='2601.02568v1.pdf'> Travelling Wave Solution in a Mathematical Model
-for Oncolytic Virotherapy </a>
-<br>
-Preprint <br>
-    <li> <a href='paper2.pdf'> Stacked Waves and Qualitative Analysis of an Oncolytic Virus-Immune Model</a>
-<br>
-Preprint <br>
-    <li> <a href='paper3.pdf'> Qualitative Optimization of Oncolytic Virotherapy and Immune
-Therapy Combination Treatments</a>
-<br>
-To appear in Mathematical Biosciences and Engineering <br>
-    <li> <a href='paper1.pdf'> Positive singular solutions of a certain elliptic PDE </a>
-<br>
-Journal of Mathematical Analysis and Applications, 555(1), Article 130033.
+        a {
+            color: #1f6aa5;
+            text-decoration: none;
+        }
 
-            </ul>
-        </section>
-<hr>
+        a:hover {
+            text-decoration: underline;
+        }
 
+        section {
+            margin-bottom: 35px;
+        }
 
+        section h1 {
+            font-size: 1.5rem;
+            color: #1f3a5f;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 6px;
+            margin-bottom: 15px;
+        }
 
+        ul {
+            padding-left: 20px;
+        }
 
- <section>
-            <h1>Teaching</h1>          
-            <ul>
-<li> Fall 2025 (U of A): <i> Math 300 -- Advanced Boundary Value Problems </i>
-  
-            </ul>
-        </section>
-<hr>
+        li {
+            margin-bottom: 15px;
+        }
 
+        .journal {
+            color: #444;
+            font-size: 0.95rem;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 40px 0;
+        }
+
+        .education-item {
+            margin-bottom: 12px;
+        }
+
+        .degree {
+            font-weight: 600;
+        }
+
+        .institution {
+            color: #444;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #777;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="content">
+
+    <header>
+        <h1 id="title">Negar Mohammadnejad</h1>
+        <div class="subtitle">PhD Student · Mathematical Biology</div>
+    </header>
+
+    <div class="container">
+        <div class="image">
+            <img src="IMG_1372.jpg" alt="Negar Mohammadnejad">
         </div>
-    </body>
+        <div class="text">
+            I am a third-year PhD student at the University of Alberta under the supervision of
+            <b>Dr. Thomas Hillen</b>.
+            <br><br>
+            <b>Email:</b> <a href="mailto:negar@ualberta.ca">negar3 [at] ualberta [dot] ca</a>
+        </div>
+    </div>
+
+    <section>
+        <h1>Research Interests</h1>
+        Mathematical biology, cancer cell modeling, partial differential equations.
+    </section>
+
+    <hr>
+
+    <section>
+        <h1>Education</h1>
+        <div class="education-item">
+            <span class="degree">MSc in Mathematics</span>,
+            <span class="institution">University of Manitoba</span> (2021–2023)
+        </div>
+        <div class="education-item">
+            <span class="degree">BSc in Mathematics</span>,
+            <span class="institution">Shahid Beheshti University</span> (2016–2020)
+        </div>
+    </section>
+
+    <hr>
+
+    <section>
+        <h1>Papers</h1>
+        <ul>
+            <li>
+                <a href="2601.02568v1.pdf">
+                    Travelling Wave Solutions in a Mathematical Model for Oncolytic Virotherapy
+                </a><br>
+                <span class="journal">
+                    Negar Mohammadnejad, Thomas Hillen. Preprint.
+                </span>
+            </li>
+
+            <li>
+                <a href="paper2.pdf">
+                    Stacked Waves and Qualitative Analysis of an Oncolytic Virus–Immune Model
+                </a><br>
+                <span class="journal">
+                    Negar Mohammadnejad, Thomas Hillen. Preprint.
+                </span>
+            </li>
+
+            <li>
+                <a href="paper3.pdf">
+                    Qualitative Optimization of Oncolytic Virotherapy and Immune Therapy Combination Treatments
+                </a><br>
+                <span class="journal">
+                    Negar Mohammadnejad, Thomas Hillen.
+                    <i>Mathematical Biosciences and Engineering</i>, 2026, 23(2): 388–420.
+                </span>
+            </li>
+
+            <li>
+                <a href="paper1.pdf">
+                    Positive Singular Solutions of a Certain Elliptic PDE
+                </a><br>
+                <span class="journal">
+                    <i>Journal of Mathematical Analysis and Applications</i>,
+                    555(1), Article 130033.
+                </span>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h1>Teaching</h1>
+        <ul>
+            <li>
+                Fall 2025 (University of Alberta):<br>
+                <i>Math 300 — Advanced Boundary Value Problems</i>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        © Negar Mohammadnejad
+    </footer>
+
+</div>
+</body>
 </html>
